@@ -29,8 +29,8 @@
 #include <linux/err.h>
 #include <linux/platform_device.h>
 #include <linux/io.h>
-#include <asm/arch/omap34xx.h>
-#include <asm/arch/control.h>
+#include <asm/arch-omap/omap34xx.h>
+#include <asm/arch-omap/control.h>
 
 #ifdef CONFIG_MACH_OMAP3621_EVT1A
 #define TEMP_SENSOR_SOC BIT(9)
